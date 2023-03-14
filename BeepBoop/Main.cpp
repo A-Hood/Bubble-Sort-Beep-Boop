@@ -40,8 +40,9 @@ int main()
 		swaps++;
 	}
 
-	std::cout << "Finished Swap!:\n\n";
+	std::cout << "\n-=- Finished Swap!: -=-\n\n";
 	OutputArray(ptrArray, size);
+	std::cout << "\n\n-=-=-=-=-=-=-=-=-=-=-=-\n\n";
 
 	std::cin.get();
 }
